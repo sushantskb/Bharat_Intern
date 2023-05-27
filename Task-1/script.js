@@ -23,6 +23,8 @@ const progress_bars = document.querySelectorAll(".skills svg circle");
 
 window.addEventListener("scroll", ()=>{
     if(!skillsPlayed)skillsCounter();
+    // 19th code continue here
+    mlCounter();
 });
 
 function hasReached(el) {
@@ -66,3 +68,21 @@ function skillsCounter(){
         (p) => (p.style.animation = "progress 2s ease-in-out forwards")
     );
 }
+
+// 19th code goes here, adding the services counter
+const ml_section = document.querySelector(".milestones");
+const ml_counters = document.querySelectorAll(".number span");
+
+let mlPlayed = false;
+function mlCounter(){
+    if(!hasReached(ml_section)) return;
+    mlPlayed = true;
+    ml_counters.forEach((ctr) => {
+        let target = +ctr.dataset.target;
+
+        setTimeout(()=>{
+            updateCount(ctr, target);
+        }, 400);
+    });
+}
+// --end--
