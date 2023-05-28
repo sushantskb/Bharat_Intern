@@ -86,3 +86,13 @@ function mlCounter(){
     });
 }
 // --end--
+
+// 23rd code goes here, coding the portfolio filter animation using mixitup
+var mixer = mixitup('.portfolio-gallery', {
+    selectors: {
+        target: '.prt-card'
+    },
+    animation: {
+        duration: 500
+    }
+});
