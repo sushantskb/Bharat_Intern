@@ -34,6 +34,12 @@ body{
     background-color: var(--bg-color);
     font-family: 'Poppins', sans-serif;
 }
+/*write the code after document.body.classList.add("stopScrolling");*/
+body.stopScrolling{
+    height: 100%;
+    overflow: hidden;
+}
+/* --end-- */
 ::selection{
     background-color: hsla(var(--hue-1), 100%, 97%);
     color: #fff;
@@ -710,3 +716,5 @@ header.scrolled .logo{
     transform: translateY(0px);
     transition: 0.3s var(--i);
 }
+/* --end-- */
+

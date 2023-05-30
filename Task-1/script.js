@@ -96,3 +96,9 @@ var mixer = mixitup('.portfolio-gallery', {
         duration: 500
     }
 });
+// --end--
+
+
+
+
+
