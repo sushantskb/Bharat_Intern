@@ -29,6 +29,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* 27th code goes here, making the scroll transition smooth */
+html{
+    scroll-behavior: smooth;
+}
+/* --end-- */
 body{
     overflow-x: hidden;
     background-color: var(--bg-color);
@@ -226,10 +231,10 @@ header.scrolled .logo{
     opacity: 0;
     transition: 0.3s;
 }
-.nav-link:hover{
+.nav-link:hover{   
     color: var(--heading-color);
 }
-.nav-link:hover::after{
+.nav-link:hover::after{  
     width: 100%;
     opacity: 0.2;
 }
