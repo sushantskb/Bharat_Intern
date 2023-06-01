@@ -98,7 +98,20 @@ var mixer = mixitup('.portfolio-gallery', {
 });
 // --end--
 
+// 29th code goes header, writing the script for change of theme
+const toggle_btn = document.querySelector(".toggle-btn");
 
+function changeTheme(){
+    if(document.body.classList.contains("dark")){
+        document.body.classList.remove("dark");
+        toggle_btn.classList.replace("uil-moon", "uil-sun");
+    } else {
+        document.body.classList.add("dark");
+        toggle_btn.classList.replace("uil-sun", "uil-moon");
+    }
+}
 
-
-
+toggle_btn.addEventListener("click", ()=>{
+    changeTheme();
+});
+// --end--
