@@ -928,4 +928,19 @@ footer .social-media{
         font-size: 0.7rem;
     }
 }
+
+@media (max-width: 768px){
+    :root{
+        --section-padding: 4.5rem;
+    }
+    .triangle{
+        width: 70px;
+    }
+    .dots{
+        width: 65px;
+    }
+    .sqaure{
+        width: 55px;
+    }
+}
 /* --end-- */
