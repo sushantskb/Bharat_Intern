@@ -854,3 +854,78 @@ footer .social-media{
 .social-links:hover{
     color: var(--main-color-1);
 }
+/* --end-- */
+
+/* 30th code goes here, making the site responsive */
+@media (max-width: 1000px){
+    .sub-heading{
+        font-size: 0.75rem;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .showcase-area .heading{
+        font-size: 2.7rem;
+    }
+    .text{
+        font-size: 0.84rem;
+        margin: 1.3rem 0;
+    }
+    .btn{
+        padding: 0.8rem 1.6rem;
+        font-size: 0.8rem;
+        border-radius: 15px;
+        min-width: 100px;
+    }
+    .btn.secondary-btn{
+        font-size: 0.85em;
+    }
+    .form-input{
+        padding: 0.8rem 1.45rem;
+        border-radius: 15px;
+        font-size: 0.8rem;
+    }
+    .logo{
+        font-size: 1.45rem;
+    }
+    header .logo{
+        height: 100px;
+        line-height: 100px;
+    }
+    .nav-link{
+        font-size: 0.7rem;
+    }
+    .showcase-area{
+        padding: 100px 0;
+    }
+    .showcase-area .container{
+        grid-template-columns: 1fr 400px;
+        height: 450px;
+    }
+    .skills-box{
+        padding: 4rem;
+    }
+    .sk-progress{
+        transform: scale(0.85);
+    }
+    .services .container{
+        column-gap: 2.5rem;
+    }
+    .contact .container{
+        column-gap: 2.5rem;
+    }
+    .contact-form{
+        padding: 2.5rem 2rem;
+    }
+    .contact-form h3{
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+    .contact .form-input{
+        margin-bottom: 0.8rem;
+    }
+    .filter-btn{
+        font-size: 0.7rem;
+    }
+}
+/* --end-- */
