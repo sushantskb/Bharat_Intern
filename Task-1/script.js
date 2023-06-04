@@ -115,3 +115,17 @@ toggle_btn.addEventListener("click", ()=>{
     changeTheme();
 });
 // --end--
+
+// --32nd code goes header, writing the code for menu-bar--
+const hamburger = document.querySelector(".hamburger");
+const links = document.querySelectorAll(".links");
+hamburger.addEventListener("click", ()=>{
+    document.body.classList.toggle("open");
+    // --write the below code after body.open .links--
+    document.body.classList.toggle("stopScrolling");
+});
+// --write the below code after body.open .links--
+links.forEach((link)=>link.addEventListener("click", ()=>{
+        document.body.classList.toggle("open");
+        document.body.classList.toggle("stopScrolling");
+}));
