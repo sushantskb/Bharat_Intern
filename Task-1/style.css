@@ -7,9 +7,9 @@
 :root{
     --hue-1: 257;
     --hue-2: 47;
-    --main-color-1: hsl(var(--hue-1), 100%, 60%);
-    --main-color-dark-1: hsl(var(--hue-1), 69%, 50%);
-    --main-color-2: hsl(var(--hue-2), 100%, 61%);
+    --main-color-1: rgb(199, 41, 41);
+    --main-color-dark-1: rgb(0, 47, 255);
+    --main-color-2: rgb(2, 114, 235);
     --main-color-dark-2: hsl(var(--hue-2), 82%, 55%);
     --section-padding: 7rem;
 }
@@ -24,19 +24,16 @@ body{
     --text-color: hsl(var(--hue-1), 17%, 63%);
 }
 body.dark{
-    --bg-color: hsl(var(--hue-1), 19%, 15%);
+    --bg-color: rgb(40, 16, 16);
     --bg-color-1: hsl(var(--hue-1), 21%, 11%%);
-    --bg-color-2: hsl(var(--hue-1), 23%, 19%);
-    --bg-color-3: hsl(var(--hue-1), 23%, 24%);
+    --bg-color-2: rgb(44, 24, 24);
+    --bg-color-3: rgb(99, 61, 61);
     --bg-color-transparent: hsla(var(--hue-1), 23%, 19%, 0.6);
     --heading-color: hsl(var(--hue-1), 100%, 95%);
     --text-color: hsl(var(--hue-1), 14%, 51%);
 }
 body.dark .st1{
     fill: hsl(var(--hue-1), 18%, 29%);
-}
-body.dark .shape.square{
-    opacity: 0.07;
 }
 body.dark .toggle-btn{
     background-color: var(--bg-color-3);
@@ -337,32 +334,6 @@ header.scrolled .logo{
     bottom: 0px;
     transform: translateX(-50%);
 }
-.dots{
-    width: 112px;
-}
-.square{
-    width: 70px;
-}
-
-.showcase-area .circle{
-    position: absolute;
-    width: 190px;
-    left: 0;
-    top: 80%;
-    transform: translate(-50%, -50%);
-}
-.showcase-area .dots{
-    position: absolute;
-    left: 100%;
-    top: 30%;
-    transform: translate(-50%, -50%);
-}
-.showcase-area .square{
-    position: absolute;
-    left: 25%;
-    bottom: 120px;
-    transform: translate(-50%, -50%);
-}
 /* --end-- */
 
 /* 13th code goes here, styling the about section */
@@ -452,16 +423,6 @@ header.scrolled .logo{
     z-index: -1;
     opacity: 0.07;
 }
-.triangle{
-    width: 95px;
-    opacity: 0.18;
-}
-.about .triangle{
-    position: absolute;
-    left:90%;
-    top:27%;
-    transform: translate(-50%, -50%);
-}
 /* --end-- */
 
 /* 15th code goes here, styling the skill section */
@@ -540,19 +501,6 @@ header.scrolled .logo{
     font-weight: 400;
     font-size: 1rem;
 }
-.skills .dots{
-    position: absolute;
-    left: 0;
-    top: 0;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-}
-.skills .square{
-    position: absolute;
-    left: 100%;
-    top: 75%;
-    transform: translate(-50%, -50%);
-}
 /* --end-- */
 
 /* 18th code goes here, styling the services section */
@@ -629,19 +577,6 @@ header.scrolled .logo{
     border: 15px solid var(--main-color-1);
     z-index: -1;
     opacity: 0.07;
-}
-.services .triangle{
-    top: 100%;
-    left: 30%;
-    position: absolute;
-    transform: translate(-50%, -100%);
-}
-.services .square{
-    top: 75%;
-    left: -15px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    z-index: -1;
 }
 /* --end-- */
 
@@ -968,15 +903,6 @@ body.open .hamburger .bar:last-child{
 @media (max-width: 768px){
     :root{
         --section-padding: 4.5rem;
-    }
-    .triangle{
-        width: 70px;
-    }
-    .dots{
-        width: 65px;
-    }
-    .sqaure{
-        width: 55px;
     }
     /* 33rd code goes here, functioning of the menu-btn */
     .hamburger{

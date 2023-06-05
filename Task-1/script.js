@@ -126,6 +126,6 @@ hamburger.addEventListener("click", ()=>{
 });
 // --write the below code after body.open .links--
 links.forEach((link)=>link.addEventListener("click", ()=>{
-        document.body.classList.toggle("open");
-        document.body.classList.toggle("stopScrolling");
+        document.body.classList.remove("open");
+        document.body.classList.remove("stopScrolling");
 }));
