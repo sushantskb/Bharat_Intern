@@ -1065,7 +1065,7 @@ body.open .hamburger .bar:last-child{
         height: revert;
         justify-content: center;
         row-gap: 40px;
-        /* margin: 0 103px; */
+        margin: 0 103px;
     }
     .showcase-image{
         min-height: revert;
@@ -1159,5 +1159,55 @@ body.open .hamburger .bar:last-child{
     }
 }
 
-
-/* --end-- */
+@media (max-width: 500px){
+    .container{
+        padding: 0 1rem;
+    }
+    .showcase-area .container{
+        row-gap: 4.5rem;
+    }
+    .showcase-area .heading{
+        font-size: 2.4rem;
+    }
+    .showcase-image{
+        width: 92%;
+        margin: 0 -58px;
+    }
+    .skills-box{
+        padding: 3rem 2.5rem;
+    }
+    .skill-wrap{
+        grid-template-columns: 1fr;
+        row-gap: 1.5rem;
+    }
+    .services-grid{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .srv-card{
+        transform: none !important;
+        min-height: auto;
+    }
+    .portfolio-header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .filter-btns{
+        margin-top: 1rem;
+    }
+    footer{
+        padding: var(--section-padding) 0 1rem;
+    }
+    footer .text{
+        order: 3;
+        flex-basis: 100%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
