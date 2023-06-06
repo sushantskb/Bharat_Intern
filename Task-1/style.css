@@ -84,6 +84,12 @@ ul{
 }
 /* --end-- */
 
+/* --styling for particle js-- */
+#particles-js{
+    position: fixed;
+}
+/* --end-- */
+
 /* 6th code goes here, writing the reusable code */
 .container{
     position: relative;
