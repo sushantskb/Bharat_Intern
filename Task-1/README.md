@@ -42,3 +42,6 @@ Services Section
 ![light se](https://github.com/sushantskb/Bharat_Intern/assets/91365425/923de6ae-158e-41d3-b921-9901e24c373b)
 Contact Section
 ![light c](https://github.com/sushantskb/Bharat_Intern/assets/91365425/1f01e4f2-842d-4871-a88e-29db0b6b6bc4)
+
+Mobile View For Resolutio 768px
+
