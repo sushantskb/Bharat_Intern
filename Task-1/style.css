@@ -315,7 +315,7 @@ header.scrolled .logo{
     margin: 0.8rem 0;
 }
 
-.showcase-image {
+/* .showcase-image {
     position: relative;
     width: 100%;
     min-height: calc(100% + 120px);
@@ -323,21 +323,21 @@ header.scrolled .logo{
     margin-top: -120px;
     border-radius: 0 0 80px 80px;
 
-}
-/* .showcase-image {
+} */
+.showcase-image {
     position: relative;
     width: 100%;
     min-height: calc(100% + 120px);
-    background-image: linear-gradient(hsl(155.67deg 100% 60%), hsl(109.51deg 100% 61%));
+    background-image: linear-gradient(hsl(53, 100%, 60%), hsl(40, 100%, 47%));
     margin-top: -93px;
     border-radius: 50%;
     margin-left: 54px;
-} */
-.showcase-image .person{
+}
+.showcase-image .person {
     position: absolute;
-    width: 95%;
-    left: 50%;
-    bottom: 0px;
+    width: 115%;
+    left: 52%;
+    bottom: -2px;
     transform: translateX(-50%);
 }
 /* --end-- */

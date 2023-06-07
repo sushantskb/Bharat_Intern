@@ -14,6 +14,11 @@ let sr = ScrollReveal({
 });
 sr.reveal(".showcase-info", {delay: 600});
 sr.reveal(".showcase-image", {origin: "left", delay: 700});
+sr.reveal(".about", {origin:"bottom", delay: 700});
+sr.reveal(".skills", {origin:"bottom", delay: 700});
+sr.reveal(".services", {origin:"bottom", delay: 700});
+sr.reveal(".portfolio", {origin:"bottom", delay: 700});
+sr.reveal(".contact", {origin:"left", delay: 700});
 // --end--
 
 // 16th code goes header, adding the skill progress bar animation
