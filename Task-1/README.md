@@ -43,7 +43,7 @@ Services Section
 Contact Section
 ![light c](https://github.com/sushantskb/Bharat_Intern/assets/91365425/1f01e4f2-842d-4871-a88e-29db0b6b6bc4)
 
-Mobile View For Resolutio 768px
+Mobile View For Resolution less than 768px
 
 Dark Mode
 
@@ -52,3 +52,14 @@ Dark Mode
 Light Mode
 
 ![Screenshot 2023-06-08 003136](https://github.com/sushantskb/Bharat_Intern/assets/91365425/6c5df12c-d78f-49b5-9daf-cb8683127c1c)
+
+
+Mobile View For Resolution less than 500px
+
+Dark Mode
+
+![Screenshot 2023-06-08 003231](https://github.com/sushantskb/Bharat_Intern/assets/91365425/a048eb8f-4d4f-418e-80bb-53b3b54e869a)
+
+Light Mode
+
+![Screenshot 2023-06-08 003203](https://github.com/sushantskb/Bharat_Intern/assets/91365425/e0a879fd-5bf0-4a81-9577-5891d6a96cc0)
